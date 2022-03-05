@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: A1h57q9Qrd
+    url: "jdbc:mysql://sql6.freesqldatabase.com:3306/sql6476903"
+    username: sql6476903
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        id:
+          new_generator_mappings: false
+        temp:
+          use_jdbc_metadata_defaults: false
+    show-sql: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql: TRACE
+server:
+  port: 8081
