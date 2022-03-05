@@ -20,3 +20,8 @@ curl --location --request POST 'http://imdb-clone-api.herokuapp.com/api/v1/regis
    "password": "passw0rd"
  }'
  
+## Postman collection Documentation
+https://documenter.getpostman.com/view/10752993/UVkvJXf9#34e08f03-c5e0-4725-96b6-9fc455251db0
+
+## Postman collection link
+https://www.getpostman.com/collections/d829c593c84d72804906
